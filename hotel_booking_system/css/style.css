@@ -1,0 +1,62 @@
+
+body{
+
+}
+.hero{
+	background-image: url("../images/banner.png");
+	height: 600px;
+	background-size: cover;
+}
+.header{
+  padding-top: 40px;
+}
+.navbar
+{
+  float: right;
+  font-size: 24px;
+}
+
+.btn{
+  float: right;
+  margin: 0px 10px;
+}
+
+.welcome-text{
+  text-align: center;
+  color: #aadfe5;
+  margin:50px 0px;
+
+}
+.main_heading
+{
+  font-size:60px;
+}
+.sub_heading
+{
+  font-size: 35px;
+}
+
+/*.hotel-detail ul li
+{
+  list-style: none;
+  
+}
+.star ul li
+{
+  display: inline;
+}*/
+.popular-hotel{
+  text-align: center;
+}
+
+/*.form-control{
+	margin: 20px 40px 0px 40px;
+}
+.btn-primary{
+margin: 15px;}
+
+.thumbnail
+{
+	border: none;
+}
+*/

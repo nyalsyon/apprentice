@@ -1,5 +1,6 @@
 
 body{
+  font-family: "Oxygen",Serif;
 
 }
 .hero{
@@ -13,7 +14,7 @@ body{
 .navbar
 {
   float: right;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .btn{
@@ -25,38 +26,126 @@ body{
   text-align: center;
   color: #aadfe5;
   margin:50px 0px;
+  font-family: "Nunito",Serif;
 
 }
 .main_heading
 {
-  font-size:60px;
+  font-size:50px;
 }
 .sub_heading
 {
-  font-size: 35px;
+  font-size: 25px;
 }
 
-/*.hotel-detail ul li
-{
-  list-style: none;
-  
-}
-.star ul li
-{
-  display: inline;
-}*/
 .popular-hotel{
+
   text-align: center;
+   margin: 25px 0px 25px 0px;
 }
 
-/*.form-control{
-	margin: 20px 40px 0px 40px;
-}
-.btn-primary{
-margin: 15px;}
-
-.thumbnail
+/*.popular-hotel h1
 {
-	border: none;
+   
+}*/
+
+
+.search-pannel
+{
+  padding-top: 50px;
 }
-*/
+
+.search
+{
+  height: 155px;
+  background-color: rgba(170,223,229,0.60);
+
+}
+
+#search
+{
+  margin: 20px 0px  0px 40px;
+  width: 700px;
+  border: none;
+  border-radius: 2px;
+}
+.btn
+{
+  margin-top: 20px;
+
+}
+#checkin_date
+{
+  margin: 10px 0px  0px 40px;
+  border: none;
+  border-radius: 2px;
+}
+ .check_in label
+ {  
+    font-weight: normal;
+    margin: 15px 0px  0px 40px;
+ }
+ .check_in img
+ {
+    margin: 10px 0px  0px 5px;
+ }
+
+#checkout_date
+{
+  margin: 10px 0px  0px 40px;
+  border: none;
+  border-radius: 2px;
+}
+ .check_out label
+ {  
+    font-weight: normal;
+    margin: 15px 0px  0px 40px;
+ }
+ .check_out img
+ {
+    margin: 10px 0px  0px 5px;
+ }
+.night label{
+  font-weight: normal;
+  margin: 15px 0px  0px 40px;
+}
+.night img{
+margin: 10px 0px  0px 40px;;
+
+  /*position: relative;*/
+}
+.night span
+{
+  color: #fff;
+  position: relative;
+  right: 30px;
+  top: 11px;
+  /*bottom: 10px;*/
+}
+
+.no-if-room
+{
+  margin: 9px 0px  0px 40px;
+  border: none;
+  border-radius: 2px;
+}
+.room label
+{
+  font-weight: normal;
+  margin: 15px 0px  0px 40px;
+}
+
+.top-hotel span
+{
+  font-size: 20px;
+ /* font-weight: bold;*/
+}
+
+footer{
+  height: 150px;
+  background-color: #AADFE5;
+}
+footer p {
+  text-align: center;
+  padding-top:100px;
+}

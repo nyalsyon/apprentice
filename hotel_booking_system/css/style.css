@@ -32,6 +32,13 @@ body{
 {
   color: #fff;
 }
+.nav>li{
+  display: inline-block;
+}
+.nav>li>a.btn{
+  margin-left: 10px;
+}
+
 .main_heading
 {
   font-size:50px;

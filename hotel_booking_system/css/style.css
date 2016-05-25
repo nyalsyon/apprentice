@@ -5,8 +5,9 @@ body{
 }
 .hero{
 	background-image: url("../images/banner.png");
-	height: 600px;
+	min-height: 600px;
 	background-size: cover;
+  padding-bottom: 20px;
 }
 .header{
   padding-top: 40px;
@@ -26,6 +27,7 @@ body{
   color: #aadfe5;
   margin:50px 0px;
   font-family: "Nunito",Serif;
+  padding-top: 60px;
 
 }
 .navbar-default .navbar-nav>li>a
@@ -41,10 +43,12 @@ body{
 
 .main_heading
 {
+  color: #fff;
   font-size:50px;
 }
 .sub_heading
 {
+  color: #fff;
   font-size: 25px;
 }
 
@@ -54,78 +58,19 @@ body{
    padding: 25px 0px 25px 0px;
 }
 
-/*.popular-hotel h1
-{
-   
-}*/
-
-
-/*.search-pannel1
-{
-  margin: 0px auto;
-  padding-top: 50px;
-}*/
-@media screen and (min-width: 480px) {
-    body {
-        background-color: #ccc;
-    }
-    .search
-    {
-      margin: 0 auto;
-      width: 100%;
-    }
-    .form-control
-    {
-      max-width: 80%;
-      border: none;
-      border-radius: 2px;
-    }
-
-}
-/*.no-if-room
-{
-  margin: 9px 0px  0px 40px;
-  border: none;
-  border-radius: 2px;
-}*/
-.room label
-{
-  font-weight: normal;
-  padding: 15px 0px  0px 40px;
-}
-
 .top-hotel span
 {
   font-size: 20px;
  /* font-weight: bold;*/
 }
 
-}
-.search
-{
-  height: 155px;
-  background-color: rgba(170,223,229,0.60);
+.search-form{
+  background: rgba(255,255,255,0.5);
+  padding:20px;
 
 }
-.search-bar
-{
-  padding: 20px 0px  0px 40px;
-  max-width: 700px;
-  min-width: 200px;
-  border: none;
-  border-radius: 2px;
-}
-/*.btn
-{
-  margin-top: 20px;
-
-}*/
-.check_in
-{
-  padding: 10px 0px  0px 40px;
-  
-  min-width: 200px;
-  
+.search-form label{
+  font-weight: normal;
 }
 .form-control
 {
@@ -133,77 +78,65 @@ body{
   border-radius: 2px;
 }
 
- .check_in label
- {  
-    font-weight: normal;
-    padding: 15px 0px  0px 40px;
- }
- .check_in img
- {
-    padding: 10px 0px  0px 5px;
- }
-
-.check_out
+#checkin_date
 {
-  padding: 10px 0px  0px 40px;
-  min-width: 200px;
- /* border: none;
-  border-radius: 2px;*/
+  background: #fff url("../images/calender.png") right 5px center no-repeat;
+  background-size: 18px; 
 }
- .check_out label
- {  
-    font-weight: normal;
-    padding: 15px 0px  0px 40px;
- }
- .check_out img
- {
-    padding: 10px 0px  0px 5px;
- }
-.night label{
-  font-weight: normal;
-  margin: 15px 0px  0px 40px;
-}
-.night img{
-margin: 10px 0px  0px 40px;;
 
-  /*position: relative;*/
+#checkout_date
+{
+  background: #fff url("../images/calender.png") right 5px center no-repeat;
+  background-size: 18px; 
+}
+
+.night img
+{
+position: relative;
 }
 .night span
 {
   color: #fff;
-  position: relative;
+  position: absolute;
   right: 30px;
   top: 11px;
   /*bottom: 10px;*/
 }
 
-.no-if-room
+.hotel-proile img
 {
-  margin: 9px 0px  0px 40px;
-  border: none;
-  border-radius: 2px;
+  width:100%;
 }
-.room label
-{
-  font-weight: normal;
-  margin: 15px 0px  0px 40px;
+.hotel-proile{
+  padding-bottom: 20px;
 }
 
-.top-hotel span
+.top-hotels span
 {
   font-size: 20px;
- /* font-weight: bold;*/
+}
+.top-hotels h1
+{
+  padding: 20px 0px;
+  text-align: center;
+  color:#337AB7;
 }
 
+
+
 footer{
+  padding-top: 10px;
   height: 100px;
-  background-color: #AADFE5;
+  background-color: #2D4162;
+   color: #fff;
 }
-footer p {
+
+footer span {
   text-align: center;
   padding-top:50px;
 }
-/*img{
-  width: auto;
-  margin: 0px;
-}*/
+
+
+.mail{
+  padding-top: 10px;
+}

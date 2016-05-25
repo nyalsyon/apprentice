@@ -33,119 +33,141 @@
 					</nav>
 				</div>
 			</div>
+
 			<div class="row welcome-text">
 				<h1 class="main_heading">Welcome to the bookyourroom</h1>
 				<h4 class="sub_heading">Make Yourself at Home, Let us serve.</h4>
 			</div>
 			<div class="row">
-			<div class="col-xs-10 col-sm-10 col-md-10">
-				<form action="#" class="form-horizontal search">
-					<div class="form-group search-bar">
-						<input type="text" class="form-control" id="search" placeholder="Search your destination, hotel, landmark or address">
-						<button type="submit" class="btn btn-primary">Search</button>
+					<!-- <div class="container"> -->
+					<div class="col-md-8 col-md-offset-2">
+						<div class="search-form">
+							<form action="#">
+									<div class="form-group ">
+                    <div class="row">
+  										<div class="col-md-10 col-sm-10 col-xs-8">
+  										  <input type="text" class="form-control " id="search" placeholder="Search your destination, hotel, landmark or address">
+                      </div>
+                      <div class="col-md-2 col-sm-2 col-xs-4">
+                        <button type="submit" class="btn btn-primary btn-block">Search</button>
+                      </div>
+                    </div>
+									</div>
+								<div class="row">
+									<div class="col-xs-5 col-sm-4 col-md-4">
+										<div class="form-group">
+                        <div class="check_in">
+                          <label for="checkin_date">Check in</label><br>
+                          <input type="text" class="form-control" id="checkin_date" placeholder="2016 - 12 - 10">
+                        </div>
+										</div>
+									</div>
+									<div class="col-xs-5 col-sm-4 col-md-4">
+										<div class="form-group">
+                        <div class="check_out">
+                          <label for="checkout_date">Check out</label><br>
+                          <input type="text" class="form-control" id="checkout_date" placeholder="2016 - 12 - 13">
+                        </div>
+										</div>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-md-2">
+										<div class="form-group">
+                      <div class="night">
+                        <label>Night</label><br>
+                        <img src="images/night.png" alt="night">
+                        <span>2</span>
+                      </div>
+										</div>
+									</div>
+									<div class="col-xs-4 col-sm-2 col-md-2">
+                      <div class="room">
+                        <label for="room">Room</label><br>  
+                        <select class="form-control no-if-room" id="room">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                      </div>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
-					<div class="row">
-						<div class="col-xs-12 col-sm-6 col-md-4">
-							<div class="form-group check_in">
-								<label for="checkin_date">Check in</label></br>
-								<input type="text" class="form-control" id="checkin_date" placeholder="2016   /04   /01">
-								<img src="images/calender.png" align="calender">
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-4">
-							<div class="form-group check_out">
-								<label for="checkout_date">Check out</label></br>
-								<input type="text" class="form-control" id="checkout_date" placeholder="2016   /04   /03">
-								<img src="images/calender.png" align="calender">
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-2">
-							<div class="form-group night">
-								<label for="Night">Night</label></br>
-								<!-- <input type="text" class="form-control" id="checkout_date" placeholder="2016   /04   /03"> -->
-								<img src="images/night.png" align="calender">
-								<span>2</span>
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-2">
-							<div class="form-group room">
-								<label for="room">Room</label></br>	
-								<select class="form-control no-if-room" id="room">
-									<option>1</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4</option>
-								</select>
-							</div>
-						</div>
-					</div>
-				</form>
 			</div>
-			</div>
-		</div>
+    </div>
 	</main>
-	<section class="container">
-		<div>
-			<h1 class="popular-hotel">Top Popular Hotels</h1>
-		</div>
-		
+	<section class="container">	
 		<div class="row">
-			<div class="col-xs-12 col-sm-4 col-md-4">
-				<img src="images/available-hotel.png" alt="top hotels" class="thumbnail img-responsive">
-					<section class="top-hotel">
-					<ul class="list-unstyled list-inline">
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-					</ul>
-					<h3>Sagamatha Hotel</h3>
-					<h4>Lakeside Pokhara</h4>
-					<h4>Loundry, House</h4>  
-				</section>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-4">
-				<img src="images/available-hotel.png" alt="top hotels" class="thumbnail img-responsive">
-				<section class="top-hotel">
-					<ul class="list-unstyled list-inline">
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-					</ul>
-					<h3>Sagamatha Hotel</h3>
-					<span>Lakeside Pokhara</span>
-					<span>Loundry, House</h4>   
-				</section>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-4 ">
-				 <img src="images/available-hotel.png" alt="top hotels" class="thumbnail img-responsive">
-				<section class="top-hotel">
-					<ul class="list-unstyled list-inline">
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-						<li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
-					</ul>
-					<h3>Sagamatha Hotel</h3>
-					<h4>Lakeside Pokhara</h4>
-					<h4>Loundry, House K</h4>
-				</section>
-			</div>
-		</div>
+      <div class="top-hotels">
+			 <h1>Top Popular Hotels</h1>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="hotel-proile">
+            <img src="images/available-hotel.png" alt="top hotels" class="thumbnail rounded img-responsive">
+              <section class="hotel">
+                <ul class="list-unstyled list-inline">
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                </ul>
+                <h3>Sagamatha Hotel</h3>
+                <span>Lakeside Pokhara</span><br>
+                <span>Loundry, House</span>  
+            </section>
+          </div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="hotel-proile">
+              <img src="images/available-hotel.png" alt="top hotels" class="thumbnail img-responsive">
+              <section class="hotel">
+                <ul class="list-unstyled list-inline">
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                </ul>
+                <h3>Sagamatha Hotel</h3>
+                <span>Lakeside Pokhara</span><br>
+                <span>Loundry, House</span>   
+            </section>
+          </div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="hotel-proile">
+              <img src="images/available-hotel.png" alt="top hotels" class="thumbnail img-responsive">
+              <section class="hotel">
+                <ul class="list-unstyled list-inline">
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                  <li><img src="images/rate.png" class="img-responsive" alt="top hotels"></li>
+                </ul>
+                <h3>Sagamatha Hotel</h3>
+                <span>Lakeside Pokhara</span><br>
+                <span>Loundry, House</span>
+            </section>
+          </div>
+		    </div>
+	
+      </div>
+    </div>
 	</section>
-	<footer>
-		<section class="container">
-			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-4">
-					<p>&copy; 2016. All Right Reserved.</p>
-				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4">
-					<h4>Send Email</h4>
-					<a href="#" class="btn btn-primary">Email Here</a>
-				</div>
-		</div>
-		</section>
-	</footer>
+  <footer>
+    <div class="container">
+      <div class="row">
+       <div class="col-xs-6 col-sm-6 col-md-6">
+          <div class="mail">
+            <h4>Send Mail us at</h4>
+            <a href="#">bookyourroom@hotels.com</a>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <span class="pull-right">&copy; bookyourroom.com. All right reserved.</span>
+        </div>
+       
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

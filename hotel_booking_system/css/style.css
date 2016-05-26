@@ -77,6 +77,11 @@ body{
   border: none;
   border-radius: 2px;
 }
+.form-group button.btn{
+  color: #fff;
+  background-color: #0088CE;
+  border:none;
+}
 
 #checkin_date
 {
@@ -124,21 +129,24 @@ position: relative;
 
 
 
-footer{
-  padding-top: 10px;
-  height: 100px;
-  background-color: #2D4162;
-   color: #fff;
+footer
+{ 
+  min-height: 150px;
+  color: #fff;
+  background-color: #2C4162;
+  padding-top: 50px;
 }
 
-footer span {
-  text-align: center;
-  padding-top:50px;
+footer span
+{
+  font-size: 18px;
 }
 
-
-.mail{
-  padding-top: 10px;
+.mail a.btn
+{
+  color: #fff;
+  background-color: #0088CE;
+  border:none;
 }
 
 /*About us starts*/

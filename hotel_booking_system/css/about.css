@@ -1,0 +1,52 @@
+body{
+  font-family: "Oxygen",Serif;
+
+}
+.wrapper
+{
+	padding-top: 40px;
+	min-height: 150px;
+	background-color: #2C4162;
+}
+
+nav ul li a
+{
+	font-size: 18px;
+	color: #fff;	
+}
+
+img.about-img
+{
+	margin-right: 15px;
+	margin-top: 10px;
+	float: left;
+
+}
+article p{
+	line-height: 1.928571;
+	text-align:justify;
+}
+
+main h1
+{
+	color: #2C4162;
+}
+footer
+{	
+	min-height: 150px;
+	color: #fff;
+	background-color: #2C4162;
+	padding-top: 50px;
+}
+
+footer span
+{
+	font-size: 18px;
+}
+
+.mail a.send-mail
+{
+	color: #fff;
+	border-radius: 0px;
+	background-color: #0088CE;
+}

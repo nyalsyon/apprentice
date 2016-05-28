@@ -1,0 +1,52 @@
+
+body{
+  font-family: "Oxygen",Serif;
+
+}
+a{
+  text-decoration: none;
+}
+.wrapper
+{
+	/*padding-top: 40px;*/
+	min-height: 150px;
+	background-color: #2C4162;
+}
+
+nav a
+{
+	font-size: 18px;
+	color: #fff;
+}
+
+main{
+  padding: 20px;
+}
+.dl-vertical dd{
+  text-align: justify;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+dd.description{
+  font-size: 14px;
+}
+.mail a.btn
+{
+	color: #fff;
+  border: none;
+	border-radius: 2px;
+	background-color: #0088CE;
+}
+footer
+{
+	min-height: 150px;
+	color: #fff;
+	background-color: #2C4162;
+	padding-top: 50px;
+}
+
+footer span
+{
+	font-size: 18px;
+}

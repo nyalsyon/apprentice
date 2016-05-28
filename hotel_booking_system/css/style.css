@@ -1,152 +1,48 @@
+@import url("base/base.css");
+@import url("layout/header.css");
+@import url("layout/banner.css");
+@import url("layout/footer.css");
+@import url("module/search.css");
+@import url("module/top-hotel.css");
+@import url("module/form.css");
 
-body{
-  font-family: "Oxygen",Serif;
-
+.wrapper
+{
+	padding-top: 40px;
+	min-height: 150px;
+	background-color: #2C4162;
 }
+
 .hero{
 	background-image: url("../images/banner.png");
 	min-height: 600px;
 	background-size: cover;
   padding-bottom: 20px;
 }
-.header{
-  padding-top: 40px;
-}
-
-.navbar-default
+nav ul li a
 {
-  font-size: 18px;
-  /*background-color: rgba(255,255,255,0.2);*/
-  border: none;
-  background: transparent;
-  color:#AADFE5; 
+	font-size: 18px;
+	color: #fff;
 }
-
-.welcome-text{
-  text-align: center;
-  color: #aadfe5;
-  margin:50px 0px;
-  font-family: "Nunito",Serif;
-  padding-top: 60px;
+.new-account a.btn{
+	color: #fff;
+	background-color: #0088CE;
+	border: none;
 
 }
-.navbar-default .navbar-nav>li>a
+input#description{
+	min-height: 100px;
+}
+img.about-img
 {
-  color: #fff;
-}
-.nav>li{
-  display: inline-block;
-}
-.nav>li>a.btn{
-  margin-left: 10px;
-}
-
-.main_heading
-{
-  color: #fff;
-  font-size:50px;
-}
-.sub_heading
-{
-  color: #fff;
-  font-size: 25px;
-}
-
-.popular-hotel{
-
-  text-align:center;
-   padding: 25px 0px 25px 0px;
-}
-
-.top-hotel span
-{
-  font-size: 20px;
- /* font-weight: bold;*/
-}
-
-.search-form{
-  background: rgba(255,255,255,0.5);
-  padding:20px;
+	margin-right: 15px;
+	margin-top: 10px;
+	float: left;
 
 }
-.search-form label{
-  font-weight: normal;
+.hotel-detail{
+  margin-bottom: 20px;
+  padding: 20px;
+  min-height: 240px;
+  background-color: rgba(220,213,213,0.8); ;
 }
-.form-control
-{
-  border: none;
-  border-radius: 2px;
-}
-.form-group button.btn{
-  color: #fff;
-  background-color: #0088CE;
-  border:none;
-}
-
-#checkin_date
-{
-  background: #fff url("../images/calender.png") right 5px center no-repeat;
-  background-size: 18px; 
-}
-
-#checkout_date
-{
-  background: #fff url("../images/calender.png") right 5px center no-repeat;
-  background-size: 18px; 
-}
-
-.night img
-{
-position: relative;
-}
-.night span
-{
-  color: #fff;
-  position: absolute;
-  right: 30px;
-  top: 11px;
-  /*bottom: 10px;*/
-}
-
-.hotel-proile img
-{
-  width:100%;
-}
-.hotel-proile{
-  padding-bottom: 20px;
-}
-
-.top-hotels span
-{
-  font-size: 20px;
-}
-.top-hotels h1
-{
-  padding: 20px 0px;
-  text-align: center;
-  color:#337AB7;
-}
-
-
-
-footer
-{ 
-  min-height: 150px;
-  color: #fff;
-  background-color: #2C4162;
-  padding-top: 50px;
-}
-
-footer span
-{
-  font-size: 18px;
-}
-
-.mail a.btn
-{
-  color: #fff;
-  background-color: #0088CE;
-  border:none;
-}
-
-/*About us starts*/

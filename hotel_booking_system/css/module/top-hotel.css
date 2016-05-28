@@ -1,0 +1,33 @@
+.popular-hotel{
+
+  text-align:center;
+   padding: 25px 0px 25px 0px;
+}
+
+.top-hotel span
+{
+  font-size: 20px;
+}
+
+.hotel-proile img
+{
+  width:100%;
+}
+.hotel-proile{
+  padding-bottom: 20px;
+}
+
+.top-hotels span
+{
+  font-size: 20px;
+}
+.top-hotels h1
+{
+  padding: 20px 0px;
+  text-align: center;
+  color:#2C4162;
+}
+
+.hotel-proile a:hover{
+  text-decoration: none;
+}

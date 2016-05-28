@@ -1,0 +1,81 @@
+
+body{
+  font-family: "Oxygen",Serif;
+
+}
+a{
+  text-decoration: none;
+}
+.wrapper
+{
+	padding-top: 40px;
+	min-height: 150px;
+	background-color: #2C4162;
+}
+
+nav a
+{
+	font-size: 18px;
+	color: #fff;
+}
+.welcome
+{
+  /*padding-top: 40px;  */
+	color: #fff;
+}
+aside{
+  min-height: 400px;
+  border-top: 1px solid #fff;
+  background-color: #2C4162;
+  color: #fff;
+}
+
+aside ul li{
+
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  /*text-align: center;*/
+}
+aside ul li a{
+  font-size: 16px;
+  /*font-weight: bold;*/
+  color: #fff;
+}
+aside ul li a:hover,
+aside ul li a:focus,
+aside ul li a:active{
+  color: #fff;
+  text-decoration: none;
+}
+aside ul li:hover{
+    background-color:rgb(72, 124, 172);
+}
+
+.menu_content{
+  min-height: 400px;
+}
+.dashbord{
+  padding-top: 20px;
+}
+.dl-vertical dd{
+  text-align: justify;
+  font-weight: 500;
+  font-size: 16px;
+}
+.edit a.btn{
+  border: none;
+  color: #fff;
+  background-color: #0088CE;
+}
+footer
+{
+	min-height: 150px;
+	color: #fff;
+	background-color: #2C4162;
+	padding-top: 50px;
+}
+
+footer span
+{
+	font-size: 18px;
+}

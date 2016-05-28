@@ -1,0 +1,16 @@
+body{
+  font-family: "Oxygen",Serif;
+  margin: 0;
+  background-color: #fff;
+}
+h1{
+  font-size: 48px;
+  color: #2C4162;
+}
+h2{
+  font-size: 32px;
+}
+article p{
+	line-height: 1.928571;
+	text-align:justify;
+}

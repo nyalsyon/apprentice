@@ -1,0 +1,24 @@
+
+.forget-password{
+  padding-right:10px;
+}
+form {
+	margin: 40px auto;
+	border: 1px solid #bebebe;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+form h3{
+	color: #2C4162;
+
+}
+form input.form-control
+{
+	background-color:rgba(190,190,190,0.1);
+}
+form button.btn{
+	color: #fff;
+	background-color: #0088CE;
+	border: none;
+}

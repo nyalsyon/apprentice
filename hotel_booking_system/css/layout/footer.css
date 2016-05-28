@@ -1,0 +1,20 @@
+
+mail a.btn
+{
+	color: #fff;
+  border: none;
+	border-radius: 2px;
+	background-color: #0088CE;
+}
+footer
+{
+	min-height: 150px;
+	color: #fff;
+	background-color: #2C4162;
+	padding-top: 50px;
+}
+
+footer span
+{
+	font-size: 18px;
+}

@@ -1,0 +1,42 @@
+.search-form{
+  background: rgba(255,255,255,0.5);
+  padding:20px;
+
+}
+.search-form label{
+  font-weight: normal;
+}
+.form-control
+{
+  border: none;
+  border-radius: 2px;
+}
+.form-group button.btn{
+  color: #fff;
+  background-color: #0088CE;
+  border:none;
+}
+
+#checkin_date
+{
+  background: #fff url("../images/calender.png") right 5px center no-repeat;
+  background-size: 18px;
+}
+
+#checkout_date
+{
+  background: #fff url("../images/calender.png") right 5px center no-repeat;
+  background-size: 18px;
+}
+
+.night img
+{
+position: relative;
+}
+.night span
+{
+  color: #fff;
+  position: absolute;
+  right: 65%;
+  top: 50%;
+}

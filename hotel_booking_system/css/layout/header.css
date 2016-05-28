@@ -1,0 +1,25 @@
+.header{
+  padding-top: 40px;
+}
+.navbar-default
+{
+  font-size: 18px;
+  /*background-color: rgba(255,255,255,0.2);*/
+  border: none;
+  background: transparent;
+  color:#AADFE5;
+}
+
+
+.nav>li{
+  display: inline-block;
+}
+.nav>li>a{
+  color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+  color: #555;
+}
+.nav>li>a.btn{
+  margin-left: 10px;
+}

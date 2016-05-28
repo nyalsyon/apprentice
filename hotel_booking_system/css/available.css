@@ -1,0 +1,101 @@
+body{
+  font-family: "Oxygen",Serif;
+
+ background-color: #fff
+}
+header
+{
+	padding-top: 40px;
+	min-height: 150px;
+	background-color: #2C4162;
+}
+
+nav ul li a
+{
+  font-size: 18px;
+  color: #fff;
+}
+
+.search-form{
+	margin: 40px 0px;
+  background: rgba(190,255,255,0.5);
+  padding:20px;
+
+}
+.search-form label{
+  font-weight: normal;
+}
+.form-control
+{
+  border: none;
+  border-radius: 2px;
+}
+.form-group button.btn{
+  color: #fff;
+  background-color: #0088CE;
+  border:none;
+}
+
+#checkin_date
+{
+  background: #fff url("../images/calender.png") right 5px center no-repeat;
+  background-size: 18px;
+}
+
+#checkout_date
+{
+  background: #fff url("../images/calender.png") right 5px center no-repeat;
+  background-size: 18px;
+}
+
+.night img
+{
+position: relative;
+}
+.night span
+{
+  color: #fff;
+  position: absolute;
+  right: 30px;
+  top: 11px;
+  /*bottom: 10px;*/
+}
+
+.hotel-detail{
+  margin-bottom: 20px;
+  padding: 20px;
+  min-height: 240px;
+  background-color: rgba(220,213,213,0.8); ;
+}
+.hotel h3,span{
+  color: #2C4162;
+}
+.check{
+   margin-left: 100px;
+}
+.check button.btn{
+
+  color: #fff;
+  background-color: #0088CE;
+  border: none;
+}
+
+footer
+{
+	min-height: 150px;
+	color: #fff;
+	background-color: #2C4162;
+	padding-top: 50px;
+}
+
+footer span
+{
+	font-size: 18px;
+}
+
+.mail a.btn
+{
+	border: none;
+	color: #fff;
+	background-color: #0088CE;
+}

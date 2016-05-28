@@ -1,0 +1,59 @@
+p{
+  text-align: justify;
+  line-height: 1.7;
+}
+body{
+  font-family: "Oxygen",Serif;
+  background-color:rgba(219,236,233,0.72);
+}
+header
+{
+	padding-top: 40px;
+	min-height: 150px;
+	background-color: #2C4162;
+}
+
+nav ul li a
+{
+  font-size: 18px;
+  color: #fff;  
+}
+
+.hotel-all-detail{
+  padding:40px;
+ /* padding-bottom: 40px;*/
+}
+.hotel-info h3,ul li {
+  color: #2C4162; 
+
+}
+.book a.btn{
+  border: none;
+  color: #fff;
+  background-color: #0088CE;
+
+}
+.book
+{
+  padding-bottom: 40px;
+}
+
+footer
+{	
+	min-height: 150px;
+	color: #fff;
+	background-color: #2C4162;
+	padding-top: 50px;
+}
+
+footer span
+{
+	font-size: 18px;
+}
+
+.mail a.btn
+{
+	border: none;
+	color: #fff;
+	background-color: #0088CE;
+}

@@ -1,7 +1,12 @@
-print "any number"
-num=gets.to_i
-if num%2!=0
-  print "#{num} is prime num"
-else
-  print"#{num} is not prime num"
+a=0
+b=1
+puts a
+puts b
+i=0
+while i<18
+  c=a+b
+  puts "c"
+  a=b
+  b=c
+  i+=1
 end
